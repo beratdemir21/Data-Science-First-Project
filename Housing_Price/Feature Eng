@@ -1,0 +1,110 @@
+BsmtVolum : TotalBsmtSF * BsmtQual->[6-1]
+Owerall : OverallQual->[10-1] * OverallCond ->[10-1]
+MasVnrArea
+AllCon : Condition1 + Condition2 
+House_Age : YearBuilt - YrSold
+AfterRemodAge : YrSold - YearRemodAdd
+MasVnrArea
+BsmtFinType1->[6-0]
+BsmtFinType2->[6-0]
+TotalBsmtSF
+1stFlrSF
+2ndFlrSF
+TotalFloorSquareF : 1stFlrSF + 2ndFlrSF 
+BsmtFinSF1
+BsmtFinSF2
+TotalBsmtFinSF : BsmtFinSF1 + BsmtFinSF2
+GrLivArea
+BsmtFullBath
+BsmtHalfBath
+TotalBsmtBath : BsmtFullBath + BsmtHalfBath
+BsmtUnfSF
+FullBath
+HalfBath
+TotalBathroom : FullBath + HalfBath
+Bedroom
+KitchenQual->[5-1]
+TotRmsAbvGrd
+TotRmsAbvGrd_per_Bathroom = TotRmsAbvGrd / TotalBathroom
+TotRmsAbvGrd_per_Bedroom = TotRmsAbvGrd / Bedroom
+Functional ?
+Fireplaces
+FireplaceQu->[6-1]
+GarageCars
+GarageArea
+GarageYrBlt
+WoodDeckSF
+OpenPorchSF
+ScreenPorch
+EnclosedPorch   
+ScreenPorch
+PoolArea
+LotFrontage
+LotArea
+
+
+Kategorik---------------------
+
+MSZoning
+Masonry veneer type
+ExterQual
+ExterCond
+HeatingQC
+CentralAir
+PavedDrive
+GarageCond ?
+MiscFeature
+
+
+
+Droping-------------------------------
+Street
+Alley
+LotShape
+LandContour
+Utilities
+LotConfig
+LandSlope
+Neighborhood
+BldgType
+HouseStyle
+RoofStyle
+RoofMatl
+Exterior1st
+Exterior2nd
+LowQualFinSF
+Foundation
+BsmtExposure
+Electrical  
+Fence
+YearBuilt
+GarageYrBlt
+SaleType
+SaleCondition
+GarageFinish
+GarageType
+TotRmsAbvGrd
+MSSubClass
+ExterQual 
+ExterCond
+BsmtHalfBath    -0.016844
+MiscVal         -0.021190
+Id              -0.021917
+LowQualFinSF    -0.025606
+OverallCond     -0.077856
+MSSubClass      -0.084284
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
