@@ -1,5 +1,5 @@
-# Data-Science-
-First Project House Pricing
+# Data-Science-First Project
+House Pricing
 
 - > My graduation project
 
